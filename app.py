@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+import joblib
 
 model = joblib.load('xgbpipe.joblib')
 st.title('Salary Prediction in 2024')
